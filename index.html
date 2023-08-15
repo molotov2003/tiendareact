@@ -6,26 +6,26 @@
     <title>Neflisoft</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./src/index.css" rel="stylesheet">
 </head>
 
 <body>
   
     
-    <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
-            <div class="col-lg-4">
-                <a href="" class="text-decoration-none">
-                    <span class="h1 text-uppercase text-primary bg-dark px-2">Nefli</span>
-                    <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">soft</span>
+    <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+            <div className="col-lg-4">
+                <a href="" className="text-decoration-none">
+                    <span className="h1 text-uppercase text-primary bg-dark px-2">Nefli</span>
+                    <span className="h1 text-uppercase text-dark bg-primary px-2 ml-n1">soft</span>
                 </a>
             </div>
-            <div class="col-lg-4 col-6 text-left">
+            <div className="col-lg-4 col-6 text-left">
                 <form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar pelicula">
-                        <div class="input-group-append">
-                            <span class="input-group-text bg-transparent text-primary">
-                                <i class="fa fa-search"></i>
+                    <div className="input-group">
+                        <input type="text" className="form-control" placeholder="Buscar pelicula">
+                        <div className="input-group-append">
+                            <span className="input-group-text bg-transparent text-primary">
+                                <i className="fa fa-search"></i>
                             </span>
                         </div>
                     </div>
@@ -34,16 +34,16 @@
     </div>
     
    
-    <div class="container-fluid mb-3">
-        <div class="row px-xl-7">
-            <div class="col-lg-8">
-                <div id="header-carousel" class="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
+    <div className="container-fluid mb-3">
+        <div className="row px-xl-7">
+            <div className="col-lg-8">
+                <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
                     
-                    <div class="carousel-inner">
-                        <div class="carousel-item position-relative active" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src="img/portada.jpg" style="object-fit: cover;">
-                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div class="p-3" style="max-width: 700px;">               
+                    <div className="carousel-inner">
+                        <div className="carousel-item position-relative active" style="height: 430px;">
+                            <img className="position-absolute w-100 h-100" src="./img/portada.jpg" style="object-fit: cover;">
+                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                <div className="p-3" style="max-width: 700px;">               
                                 </div>
                             </div>
                         </div>
@@ -51,22 +51,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 py-5">
+            <div className="col-lg-3 py-5">
                 <div  style="height: 200px;">
                     <form>
-                        <span class="h4 text-uppercase text-primary bg-dark px-2">Agregar</span>
-                        <span class="h4 text-uppercase text-dark bg-primary px-2 ml-n1">pelicula</span>
+                        <span className="h4 text-uppercase text-primary bg-dark px-2">Agregar</span>
+                        <span className="h4 text-uppercase text-dark bg-primary px-2 ml-n1">pelicula</span>
                         
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Titulo</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div className="mb-3">
+                          <label for="exampleInputEmail1" className="form-label">Titulo</label>
+                          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                          
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Descripcion</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div className="mb-3">
+                          <label for="exampleInputPassword1" className="form-label">Descripcion</label>
+                          <input type="password" className="form-control" id="exampleInputPassword1">
                         </div>
-                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" className="btn btn-warning">Warning</button>
                      
                       </form>
                 </div>                  
@@ -75,150 +75,79 @@
     </div>
 
 
-    <div class="col-lg-4 mx-auto My-auto">
-        <a href="" class="text-decoration-none">
-            <span class="h1 text-uppercase text-primary bg-dark px-2">Categorias</span>
+    <div className="col-lg-4 mx-auto My-auto">
+        <a href="" className="text-decoration-none">
+            <span className="h1 text-uppercase text-primary bg-dark px-2">Categorias</span>
             
         </a>
     </div>
   
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5 pb-3">
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
-                    <i class="bi bi-arrow-through-heart-fill"></i>  
-                    <h5 class="font-weight-semi-bold m-0">Romance</h5>
+    <div className="container-fluid pt-5">
+        <div className="row px-xl-5 pb-3">
+            <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div className="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                    <i className="bi bi-arrow-through-heart-fill"></i>  
+                    <h5 className="font-weight-semi-bold m-0">Romance</h5>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+            <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div className="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     
-                    <h5 class="font-weight-semi-bold m-0">Terror</h5>
+                    <h5 className="font-weight-semi-bold m-0">Terror</h5>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+            <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div className="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     
-                    <h5 class="font-weight-semi-bold m-0">Aventura</h5>
+                    <h5 className="font-weight-semi-bold m-0">Aventura</h5>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+            <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
+                <div className="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     
-                    <h5 class="font-weight-semi-bold m-0">Accion</h5>
+                    <h5 className="font-weight-semi-bold m-0">Accion</h5>
                 </div>
             </div>
             
         </div>
     </div>
-    <div class="container-fluid pt-5 pb-3">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Peliculas</span></h2>
-        <div class="row px-xl-5">
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli1.jpeg" alt="">
+    <div className="container-fluid pt-5 pb-3">
+        <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-secondary pr-3">Peliculas</span></h2>
+        <div className="row px-xl-5">
+            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div className="product-item bg-light mb-4">
+                    <div className="product-img position-relative overflow-hidden">
+                        <img className="img-fluid w-100" src="img/peli1.jpeg" alt="">
                     </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">In the game of the kings</a>
+                    <div className="text-center py-4">
+                        <a className="h6 text-decoration-none text-truncate" href="">In the game of the kings</a>
                         
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli2.jpeg" alt="">
+            <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div className="product-item bg-light mb-4">
+                    <div className="product-img position-relative overflow-hidden">
+                        <img className="img-fluid w-100" src="img/peli2.jpeg" alt="">
                        
                     </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">El apagon</a>
+                    <div className="text-center py-4">
+                        <a className="h6 text-decoration-none text-truncate" href="">El apagon</a>
                         
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli3.jpeg" alt="">
-                       
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Dark web</a>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli4.jpeg" alt="">
-                        
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">La manada</a>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli5.png" alt="">
-                        
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Mi mejor varano</a>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli6.jpeg" alt="">
-                        
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Como perros salvajes</a>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli7.jpeg" alt="">
-                        
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Spymate </a>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/peli8.jpeg" alt="">
-                        
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Pod</a>
-                        
-                    </div>
-                </div>
-            </div>
+            </div>          
+           
         </div>
     </div>
     
     
    
-    <footer class="bg-light text-center text-lg-start">
+    <footer className="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div className="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           
-          <a class="text-dark" href="#">neflisoft</a>
+          <a className="text-dark" href="#">neflisoft</a>
         </div>
         <!-- Copyright -->
       </footer>
